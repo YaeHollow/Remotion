@@ -1,0 +1,42 @@
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "remotion preview index.html",
+    "build": "remotion render index.html Main out/video.mp4",
+    "dev": "remotion preview index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaeHollow/Remotion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YaeHollow/Remotion/issues"
+  },
+  "homepage": "https://github.com/YaeHollow/Remotion#readme",
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/postprocessing": "^3.0.4",
+    "@remotion/three": "^4.0.481",
+    "gsap": "^3.15.0",
+    "maath": "^0.10.8",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "remotion": "^4.0.481",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
